@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vanathi's Portfolio</title>
+    <style>
+        body {
+            background-image: url(https://th.bing.com/th?id=OIP.gIVRihsal5fZlX4Q6xI0_AHaHJ&w=254&h=245&c=8&rs=1&qlt=90&o=6&dpr=1.3&pid=3.1&rm=2);
+            background-repeat: no-repeat;
+            background-size: cover;
+            font-family: Arial, sans-serif;
+            
+        }
+
+        header {
+            background-color: #333;
+            color: white;
+            padding: 10px;
+            text-align: center;
+        }
+        nav ul li {
+            display: inline;
+            margin:  15px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+        }
+
+        section {
+            padding: 20px;
+            margin: 20px;
+        }
+
+        h1, h2 {
+            color: rgb(32, 0, 0);
+        }
+
+        button {
+            padding: 10px 20px;
+            margin: 10px;
+            background-color: #333;
+            color: rgb(12, 9, 9);
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #555;
+        }
+        table, tr, th, td{
+            text-align: center;
+            border: 1px solid black;
+            padding: 0.5cm;
+            
+        }
+        .g, .s, .h, .r{
+            display: inline-flex;
+            margin-left: auto;
+            margin-right: auto;
+            width: 50%;
+        }
+
+    </style>
+</head>
+<body>
+    <header >
+        <head style="margin-bottom: 10%;">
+            <h1 style="text-align: left; padding-left: 10%;color: aliceblue;">VANATHI AMUTHAN</h1>
+            <h3 style="text-align: left; padding-left: 10%;color: aliceblue;">An Aspiring Engineering Student</h3>
+        </head>
+        
+        
+        <nav style="text-align: right;" >
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#learning">Learning</a></li>
+                <li><a href="#tools">Tools</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><button style="background-color: aliceblue; border-radius:5cm;" onclick="viewResume()">View Resume</button></li>
+                <li><button style="background-color: aliceblue; border-radius:5cm;"onclick="downloadResume()">Download Resume</button></li>
+                
+            </ul>
+        </nav>
+    </header>
+    <center><h1 style="color:rgb(0, 0, 0);font-size:50px;" >Welcome to my portfolio!</h1></center>
+    
+    <section style="display: flex;flex-direction:row; justify-content: space-between; padding: 5px; ">
+
+        <div><img src="https://www.shareicon.net/data/2016/05/26/771190_people_512x512.png" style="width: 300px; height: 300px;"></div>
+        <div id="about" style="padding-left: 20px;">
+        <h2 style="padding-bottom: 20px;" >About</h2>
+        <p style="font-size: large; line-height: 130%;">Greetings! I'm Vanathi, currently pursuing a bachelor's degree in<br>
+            Electronics and Communication Engineering at SKCET.<BR>
+           My enthusiasm for technology drives me to explore<BR> and innovate in the ever-evolving tech landscape.<br>
+             Beyond my studies, I have developed a strong proficiency in software development and<br>
+             I am skilled in programming languages such as Python and JavaScript.<br>
+              As a dedicated and hardworking individual, I am always eager to take on new challenges and learn new things.<br>
+             My aim is to apply my academic knowledge and practical experience to make impactful contributions in the tech industry.
+        </p>
+    </div>
+        <hr>
+    </section>
+    <section id="education">
+        <div id="I">GRYFFINDOR
+            <a href="https://harrypotter.fandom.com/wiki/Gryffindor" target="_blank">
+                <img src="IMAGES\GRYFFINDOR.jpeg" alt="Gryffindor" height="225px" width="225px" class="g" >
+            </a>
+        </div>
+        <div id="AM">SLYTHERIN
+            <a href="https://harrypotter.fandom.com/wiki/Slytherin" target="_blank">
+                <img src="IMAGES\SLYTHERIN.jpeg" alt="Slytherin" height="225px" width="225px" class="s" >
+            </a>
+        </div>
+        <div id="IRON">HUFFLEPUFF
+            <a href="https://harrypotter.fandom.com/wiki/Hufflepuff" target="_blank">
+                <img src="IMAGES\HUFFLEPUFF.jpeg" alt="Hufflepuff" height="225px" width="225px" class="h" >
+            </a>
+        </div>
+    </section>
+    <section id="skills">
+        
+        <h2>Software Skills</h2>
+        <ul>
+            <li>C++/C</li>
+            <li>Java</li>
+            <li>Html</li>
+            <li>Java Script</li>
+            <li>Type Script</li>
+            <li>Sql</li>
+            <li>DSA</li>
+        </ul>
+        <hr>
+        <h2>Personals Skills</h2>
+        <ul>
+            <li>Problem Solving</li>
+            <li>Communication Skill</li>
+            <li>Analytical and Logical Thinking</li>
+            <li>Leadership skills</li>
+            <li>Team Work</li>
+            <li>Project Management</li>
+        </ul>
+        <hr>
+    </section>
+    <section id="learning">
+        <h2>Learning</h2>
+        <p>INTERNSHIP</p>
+        <p>at EMGLITZ TECHNOLOGIES<br>
+        on Internet Of Things</p>
+        <hr>
+    </section>
+    
+    <section id="tools">
+        <h2>Tools</h2>
+        <ul>
+            <li>Proteus</li>
+            <li>BLYNK IoT</li>
+            <li>Pycharm</li>
+            <li>VScode</li>
+            <li>GIT</li>
+            <li>GitHub</li>
+            <li>Adobe applications</li> 
+        </ul>
+        <hr>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <ul>
+            <li>
+                Developing an AI Powered Energy Management System for an
+                Industries</li><br>
+            <li>Estimation of inflow to a reservoir from the rainfall considering soil moisture in its
+                catchment and releases from upstream reservoirs and automatically opening of reservior
+                gates for moderately releasing the water to avoid the flooding in a basin.</li><br>
+            <li>Our objective is to bridge the digital divide by providing access to technology, connectivity,
+                and digital literacy in remote regions, fostering socio-economic growth and inclusion.</li>
+        </ul>
+        <hr>
+    </section>
+
+    
+
+    <script>
+        function viewResume() {
+            window.open('Resume.pdf', '_blank');
+        }
+
+        function downloadResume() {
+            const link = document.createElement('a');
+            link.href = 'Resume.pdf';
+            link.download = 'Siva_Adithyan_Resume.pdf';
+            document.body.appendChild(link);
+            link.click();
+            document.body.removeChild(link);
+        }
+    </script>
+    
+        <center><h1 style="color: aliceblue;font-size: 50px;" ><b>Connect with me!!!!</b></h1></center>
+  
+
+<div class="image" id="contact" style="padding-bottom: 100px;">
+  <p  style="text-align: left; padding-bottom: 250px;font-size:large;font-weight: bold;padding-left: 200px;color: rgb(236, 233, 229);font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;"><nobr>
+    <ul style="color: black;font-size: x-large;align-items: center;">
+<a href="https://mail.google.com/mail/u/0/#inbox" target="_blank"><li style="padding-bottom: 50px;list-style-type: none;padding-left: 300px;"><img src="https://cdn.iconscout.com/icon/free/png-256/free-gmail-2981844-2476484.png" height="40px" width="40px" style="padding-right: 20px;"></a>Catch me here</li>
+<a href="https://www.linkedin.com/in/vanathi5972" target="_blank"><li style="padding-bottom: 50px;list-style-type: none;padding-left: 300px;"><img src="https://cdn-icons-png.flaticon.com/256/124/124011.png" height="40px" width="40px" style="padding-right: 20px;">  </a>Connections Welcome!</li>
+<a href="https://github.com/VanathiAmuthan" target="_blank"><li style="padding-bottom: 50px;list-style-type: none;padding-left: 300px;"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ--bCk4RoidgnUN7K6dp5i577yeaLgjiqYHA&s" height="40px" width="40px" style="padding-right: 20px;"> </a>Check my works on Github</li>
+</nobr></p>
+</div>
+  
+</div>
+<footer >
+  <center><h1 style="color:aliceblue;font-size: 60px;">Thanks for visiting my profile!</h1></center>
+
+</footer>
+</body>
+</html>
