@@ -49,7 +49,7 @@
     /*programming language*/
     .pl{
         padding-right:30px;
-        border:2px dashed rgb(255, 255, 255);
+        border:2px solid  rgb(255, 255, 255);
         margin:50px;
        
         
@@ -57,14 +57,14 @@
     /*database*/
     .db{
         padding-right:30px;
-        border:2px dashed rgb(255, 255, 255);
+        border:2px solid rgb(255, 255, 255);
         margin:50px;
        
     }
     /*tools*/
     .tl{
         padding-right:30px;
-        border:2px dashed rgb(255, 255, 255);
+        border:2px solid rgb(255, 255, 255);
         margin:50px;
     }
     /*division for navigation bar*/
