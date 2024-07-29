@@ -1,0 +1,158 @@
+@media (min-width: 480px){
+    
+    #pic{/*box model for picture*/
+        padding: 10px;
+        border: 2px rgb(255, 255, 255);
+        margin: 20px;
+        background-color: lightgrey;
+    }
+    /*table*/
+    tr:hover {background-color: coral;}
+    td{
+        padding: 5px;
+    }
+    table,td,th{
+        border:2px solid rgb(255, 255, 255);
+        text-align: center;
+    }
+    /*div for edu and table*/
+    .tt{
+        display:flex;
+        padding-left: 150px;
+        
+    }
+    /*"education"*/
+    #edu{
+        padding-right: 50px;
+        color:rgb(255, 0, 238);
+    }
+    /*div for skill*/
+    .second{
+        display:flex;
+        padding-left: 150px;
+    }
+    /*"skill"*/
+    .skill{
+        padding-right: 100px;
+        color:rgb(255, 0, 238);
+    }
+    /*div for contact and details*/
+    .contact{
+        display:flex;
+        padding-left: 150px;
+    }
+    /*div for "contact"*/
+    #cont{
+        padding-right: 120px;
+        color:rgb(255, 0, 238);
+    }
+    /*programming language*/
+    .pl{
+        padding-right:30px;
+        border:2px dashed rgb(255, 255, 255);
+        margin:50px;
+       
+        
+    }
+    /*database*/
+    .db{
+        padding-right:30px;
+        border:2px dashed rgb(255, 255, 255);
+        margin:50px;
+       
+    }
+    /*tools*/
+    .tl{
+        padding-right:30px;
+        border:2px dashed rgb(255, 255, 255);
+        margin:50px;
+    }
+    /*division for navigation bar*/
+    .flex{
+        background-color:goldenrod;
+        display: flex;
+        flex-direction: row-reverse;
+        width: 1920px;
+        justify-content:space-evenly;
+    }
+    /*ul*/
+    .nav{display:flex;
+    
+        list-style-type: none;
+    }
+    /*list in navigation bar*/
+    .list:hover{
+        background-color:salmon;
+       
+    }
+    .list{
+        padding:20px;
+        color: white;
+        padding: 20px;
+    }
+    /*ahref of navigation bar*/
+    a{
+        color:white;
+        text-decoration: none;
+    }
+    /*div for image and name*/
+    .image{
+        display:flex;
+        padding-left: 150px;
+    }
+    #name{
+        padding-left: 70px;
+        padding-top: 70px;
+        padding-bottom: 70px;
+        font-weight: bold;
+    }
+    .about{
+       
+        font-weight: bold;
+        color: rgb(255, 255, 0);
+        padding-left: 150px;
+        text-align: justify;
+        font-family: 'Times New Roman', Times, serif;
+        line-height:25px;
+        
+        
+    }
+    /*bar graph*/
+    .skill1 {
+        width: 100%; /* Full width */
+        height: 50%;
+        background-color: rgb(225, 226, 228); /* Grey background */
+    }
+    
+    .skill2 {/*percentage*/
+        text-align: right; 
+        padding-top: 5px; 
+        padding-bottom: 5px; 
+        color: white; 
+    }
+    .mysql {width: 60%; background-color:rgb(109, 228, 255);}/*filled portion*/
+    .vs {width: 70%; background-color:rgb(109, 228, 255);}
+    .Git {width: 75%; background-color:rgb(109, 228, 255);}
+    .github {width: 75%; background-color:rgb(109, 228, 255);}
+    .cpp {width: 80%; background-color:rgb(109, 228, 255);}
+    .java {width: 85%; background-color:rgb(109, 228, 255);}
+    /*div for project*/
+    .project{
+        display:flex;
+        padding-left: 150px;
+    }
+    /*"project"*/
+    .protitle{
+        padding-right: 100px;
+        color:rgb(255, 0, 238);
+    }
+    /*ahref for project image*/
+    .proimage{
+        text-decoration: none;
+        color: rgb(255, 255, 255);
+    }
+    /*for contact*/
+    .contactst{
+        text-decoration: none;color: rgb(255, 255, 255);padding: 30px;
+    }
+    }
